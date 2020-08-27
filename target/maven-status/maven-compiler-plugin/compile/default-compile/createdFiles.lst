@@ -1,0 +1,3 @@
+com\moodys\qats\acceptance\TestApplication.class
+com\moodys\qats\acceptance\HealthcheckController.class
+com\moodys\qats\acceptance\VersionController.class

@@ -1,0 +1,240 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Launch the browser",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4864451600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Launch Chrome Browser",
+            "match": {
+              "location": "Step.User_Launch_Chrome_Browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3581344400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the the MeerQATS login page",
+            "match": {
+              "location": "Step.User_enter_the_the_MeerQATS_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131272100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "After Verifying login page title",
+            "match": {
+              "location": "Step.After_Verifying_login_page_title()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16401342700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Manager enters Username and Password and click login",
+            "match": {
+              "location": "Step.Manager_enters_Username_and_Password_and_click_login()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 35,
+        "name": "Verify Workbaskets and case status",
+        "description": "",
+        "id": "manager-functionalities;verify-workbaskets-and-case-status",
+        "after": [
+          {
+            "result": {
+              "duration": 8965667200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6210761100,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Manager Goes to Dashboard",
+            "match": {
+              "location": "Step.Manager_Goes_to_Dashboard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15430057000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Manager click on Quality Review Work Queue and validate case status for any case",
+            "match": {
+              "location": "Step.Manager_click_on_Quality_Review_Work_Queue_and_validate_case_status_for_any_case()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6332018000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Manager Goes to Dashboard",
+            "match": {
+              "location": "Step.Manager_Goes_to_Dashboard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14564283000,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "Manager click on Pending Vital Records and validate case status for any case",
+            "match": {
+              "location": "Step.Manager_click_on_Pending_Vital_Records_and_validate_case_status_for_any_case()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6239339400,
+              "status": "passed"
+            },
+            "line": 40,
+            "name": "Manager Goes to Dashboard",
+            "match": {
+              "location": "Step.Manager_Goes_to_Dashboard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15214904200,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "Manager click on Awaiting Action Queue and validate case status for any case",
+            "match": {
+              "location": "Step.Manager_click_on_Awaiting_Action_Queue_and_validate_case_status_for_any_case()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6196866800,
+              "status": "passed"
+            },
+            "line": 42,
+            "name": "Manager Goes to Dashboard",
+            "match": {
+              "location": "Step.Manager_Goes_to_Dashboard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 15545837600,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "Manager click on Documents Available Queue and validate case status for any case",
+            "match": {
+              "location": "Step.Manager_click_on_Documents_Available_Queue_and_validate_case_status_for_any_case()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6195798500,
+              "status": "passed"
+            },
+            "line": 44,
+            "name": "Manager Goes to Dashboard",
+            "match": {
+              "location": "Step.Manager_Goes_to_Dashboard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14274051000,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "Manager click on Awaiting Action Release and validate case status for any case",
+            "match": {
+              "location": "Step.Manager_click_on_Awaiting_Action_Release_and_validate_case_status_for_any_case()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6131125900,
+              "status": "passed"
+            },
+            "line": 46,
+            "name": "Manager Goes to Dashboard",
+            "match": {
+              "location": "Step.Manager_Goes_to_Dashboard()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 14643291900,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "Manager click on Provisional Pending Definitive Queue and validate case status for any case",
+            "match": {
+              "location": "Step.Manager_click_on_Provisional_Pending_Definitive_Queue_and_validate_case_status_for_any_case()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 34,
+            "name": "@Fifth"
+          }
+        ]
+      }
+    ],
+    "name": "Manager functionalities",
+    "description": "",
+    "id": "manager-functionalities",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/Manager.feature"
+  }
+]

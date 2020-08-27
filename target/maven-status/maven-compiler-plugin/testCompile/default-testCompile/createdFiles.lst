@@ -1,0 +1,10 @@
+com\moodys\qats\page\Dashboard.class
+com\moodys\qats\utilities\Util.class
+com\moodys\qats\page\QATS_HomePage.class
+com\moodys\qats\page\CreateQAReviewManualCase.class
+com\moodys\qats\page\MyWork.class
+com\moodys\qats\utilities\TestBase.class
+com\moodys\qats\stepdefinitions\Step.class
+com\moodys\qats\test\TestRunner.class
+com\moodys\qats\page\QATS_LoginPage.class
+com\moodys\qats\page\QualityReferenceSheet.class
